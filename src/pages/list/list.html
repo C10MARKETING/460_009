@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Pumpetyper</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-img class="topbillede" src="/assets/img/top_pumpetyper.png"></ion-img>
+    <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <ion-icon name="{{item.icon}}" item-right></ion-icon>
+      {{item.title}}
+    </button>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
+  <ion-tabs>
+  <ion-tab tabTitle="Chat" tabIcon="chat"></ion-tab>
+</ion-tabs>
+</ion-footer>
+

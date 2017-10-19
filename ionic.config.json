@@ -1,0 +1,8 @@
+{
+  "name": "hcpumps",
+  "app_id": "5854f18a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

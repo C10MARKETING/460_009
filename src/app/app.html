@@ -1,0 +1,22 @@
+<!--<ion-menu [content]="content">
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Sider</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>-->
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="true"></ion-nav>
+<a style="padding-top: 7px; padding-left:10px; visibility: hidden;" href="/" class="toFrontpage button button-icon button-clear ion-home">
+<ion-icon name="home" class="homeButton" color="light"></ion-icon>
+</a>

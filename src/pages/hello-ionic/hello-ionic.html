@@ -1,0 +1,46 @@
+<!--<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu" role="image"></ion-icon>
+    </button>
+    <ion-title>HC Pumps & Trucks</ion-title>
+  </ion-navbar>
+</ion-header>-->
+<ion-content class="frontpage" has-footer="false" has-header="false" padding>
+<div class="fronpage-menu" margin-top>
+<ion-grid>
+  <ion-row style="margin-top:250px;">
+    <ion-col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4>
+        <a [navPush]="pushPagePumpetyper">
+        <ion-img src="/assets/img/btn_pumpetyper.png"></ion-img>
+        </a>
+    </ion-col>
+    <ion-col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4>
+        <a [navPush]="pushPageSikkerhed">
+        <ion-img src="/assets/img/btn_sikkertarbejdsmiljo.png"></ion-img>
+        </a>
+    </ion-col>
+    <ion-col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4>
+        <a [navPush]="pushPagePrisoversigt">
+        <ion-img src="/assets/img/btn_prisoversigt.png"></ion-img>
+        </a>
+    </ion-col>
+    <ion-col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4>
+        <a [navPush]="pushPageFaq">
+        <ion-img src="/assets/img/btn_faq.png"></ion-img>
+        </a>
+    </ion-col>
+    <ion-col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4>
+        <a [navPush]="pushPageKontakt">
+        <ion-img src="/assets/img/btn_kontakt.png"></ion-img>
+        </a>
+    </ion-col>
+    <ion-col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4>
+        <a [navPush]="pushPageOmOs">
+        <ion-img src="/assets/img/btn_omhcpumps.png"></ion-img></a>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  
+</div>
+</ion-content>

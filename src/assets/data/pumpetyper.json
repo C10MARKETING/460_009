@@ -1,0 +1,9 @@
+`{
+"pumpetype": [
+{ "id": "1", "name": "24m pumpe" },
+{ "id": "2", "name": "36m pumpe" },
+{ "id": "3", "name": "42m pumpe" },
+{ "id": "4", "name": "47m pumpe" },
+{ "id": "4", "name": "58m pumpe" }
+]
+}
